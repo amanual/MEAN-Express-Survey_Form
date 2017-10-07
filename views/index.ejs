@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>    
+        <form action='/display' method='post'>
+            Your Name: <input type='text' name='name'><br>
+        
+            Dojo Location:
+            <select name="location">
+                <option value="San Jose" >San Jose</option>
+                <option value="D.C." >D.C.</option>
+                <option value="Seattle" >Seattle</option>
+            </select><br>            
+            
+            Favorite Language:
+            <select name="languages">
+                <option value="Python" >Python</option>
+                <option value="Java" >Java</option>
+                <option value="iOS" >iOS</option>
+            </select><br>
+            Comment (optional):<br> <textarea name="comment" cols="30" rows="5"></textarea><br>
+            <input type='submit' value='create user'>
+
+        </form>
+    
+    
+</body>
+</html>
